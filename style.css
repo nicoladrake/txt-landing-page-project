@@ -1,8 +1,9 @@
-/*
+
 * {
   border:1px solid red;
 }
-*/
+
+
 
 body, button {
   font-family: Courier, monospace;
@@ -24,7 +25,7 @@ button {
 }
 
 .section-1,.section-2,.section-3,.section-4 {
-  padding:150px 0px;
+  padding:150px 10px;
 }
 
 .header,.footer {
@@ -126,20 +127,24 @@ h3 {
   display: flex;
   justify-content: center;
   margin:auto;
-  width:700px;
+  max-width:700px;
   gap:10px;
   flex-wrap:wrap;
 }
 
 .section-1 > div {
   flex:1;
+  min-width:343px;
+  max-width:343px;
 }
 
 .section-1 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap:10px;
 }
+
 
 .section-1 p {
   margin:0;
@@ -162,10 +167,15 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   gap:20px;
+  background-color: #80ace6;
+  border:1px solid black;
+  border-radius: 15px;
+  padding:50px;
 }
 
 .cta .left {
   flex:1;
+  min-width: 200px;
 }
 
 .cta .left p {
@@ -200,12 +210,16 @@ blockquote {
   border-radius: 15px;
   padding:0 15px;
   font-size: 120%;
+  max-width:400px;
+  margin:auto;
 }
 
 .credit {
-  text-align: right;
+  text-align: center;
   font-weight: bold;
+  font-style: italic;
   font-size:110%;
+  margin-top:50px;
 }
 
 img {
