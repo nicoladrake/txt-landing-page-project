@@ -5,7 +5,7 @@
 */
 
 body, button {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
   font-size:14px;
   padding:0;
   margin:0;
@@ -36,28 +36,32 @@ button {
   justify-content: space-between;
   align-items: center;
   color:white;
-  background-color: #8e8ce9;
+  background-color: yellow;
   position:fixed;
   top:0;
   width:100%;
   box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .container1 {
   padding-top:70px;
-  background-color: #8cbde9;
 }
 
 .container2 {
   padding:0 60px;
 }
 
-.container3 {
-  background-color: #fff676;
+.container1,.footer {
+  background-color: #80ace6;
 }
 
-.container4 {
-  background-color: #8cbde9;
+.container3 {
+  background-color: #c2dcf3;
+}
+
+.container2,.container4 {
+  background-color: #eff6fc;
 }
 
 ul {
@@ -74,15 +78,20 @@ li {
 }
 
 li a {
-  color:white;
+  color:black;
 }
 
 li a:hover {
+  color:#80ace6;
+}
+
+.title {
   color:black;
+  text-transform: uppercase;
 }
 
 .title:hover {
-  color:black;
+  color:#80ace6;
 }
 
 button a{
@@ -90,7 +99,7 @@ button a{
 }
 
 button a:hover{
-  color:#8e8ce9;
+  color:#80ace6;
 }
 
 .title {
