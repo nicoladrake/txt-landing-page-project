@@ -8,15 +8,18 @@
 
 
 body, button {
-  font-family: Courier, Monaco, monospace;
+  font-family: Lato, Arial, sans-serif;
+  letter-spacing:0.3px;
   font-size:14px;
   padding:0;
   margin:0;
 }
 
+.header, button {
+  background-color: #ffe600;
+}
+
 button {
-  border:pink;
-  background-color: yellow;
   color:black;
   border-radius: 10px;
   border:solid 1px black;
@@ -40,7 +43,6 @@ button {
   gap:35px;
   align-items: center;
   color:white;
-  background-color: yellow;
   position:fixed;
   top:0;
   width:100%;
@@ -56,16 +58,16 @@ button {
   padding:0 60px;
 }
 
-.container1,.footer {
-  background-color: #80ace6;
+.container1,.footer,li a:hover {
+  background-color: #80b7ff;
 }
 
 .container3 {
-  background-color: #c2dcf3;
+  background-color: #c8e6ff;
 }
 
 .container2,.container4 {
-  background-color: #eff6fc;
+  background-color: #ffffff;
 }
 
 ul {
@@ -73,7 +75,6 @@ ul {
   padding:0;
   display:inline-flex;
   gap:35px;
-  letter-spacing: -0.7px;
   text-align: center;
 }
 
@@ -83,10 +84,6 @@ li {
 
 li a {
   color:black;
-}
-
-li a:hover {
-  color:#80ace6;
 }
 
 .title {
@@ -131,14 +128,14 @@ h3 {
   justify-content: center;
   margin:auto;
   max-width:700px;
-  gap:10px;
+  gap:20px;
   flex-wrap:wrap;
 }
 
 .section-1 > div {
   flex:1;
-  min-width:343px;
-  max-width:343px;
+  min-width:340px;
+  max-width:340px;
 }
 
 .section-1 .left {
