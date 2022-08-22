@@ -6,7 +6,7 @@
 
 
 body, button {
-  font-family: Courier, monospace;
+  font-family: Courier, Monaco, monospace;
   font-size:14px;
   padding:0;
   margin:0;
@@ -35,6 +35,7 @@ button {
 .header {
   display:flex;
   justify-content: space-between;
+  gap:35px;
   align-items: center;
   color:white;
   background-color: yellow;
@@ -233,11 +234,13 @@ img {
   height:100%;
 }
 
+
 .section-2 img {
   width:150px;
   height:150px;
   margin-bottom:15px;
 }
+
 
 .section-1 button {
   align-self: flex-start;
