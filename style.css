@@ -8,7 +8,7 @@
 
 
 body, button {
-  font-family: Lato, Arial, sans-serif;
+  font-family: 'Courier Prime', monospace;
   letter-spacing:0.3px;
   font-size:14px;
   padding:0;
@@ -16,7 +16,7 @@ body, button {
 }
 
 .header, button {
-  background-color: #ffe600;
+  background-color: #FEDD00;
 }
 
 button {
@@ -59,7 +59,7 @@ button {
 }
 
 .container1,.footer,li a:hover {
-  background-color: #80b7ff;
+  background-color: #79C8FF;
 }
 
 .container3 {
@@ -92,7 +92,7 @@ li a {
 }
 
 .title:hover {
-  color:#80ace6;
+  color:#79C8FF;
 }
 
 button a{
@@ -100,7 +100,7 @@ button a{
 }
 
 button a:hover{
-  color:#80ace6;
+  color:#79C8FF;
 }
 
 .title {
@@ -167,7 +167,7 @@ h3 {
   align-items: center;
   flex-wrap: wrap;
   gap:20px;
-  background-color: #80ace6;
+  background-color: #79C8FF;
   border:1px solid black;
   border-radius: 15px;
   padding:50px;
